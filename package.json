@@ -1,0 +1,21 @@
+{
+  "name": "resuc-recovery",
+  "version": "1.0.0",
+  "description": "framework for resuc",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulsalam0001/nft.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Abdulsalam0001/nft/issues"
+  },
+  "homepage": "https://github.com/Abdulsalam0001/nft#readme"
+}

